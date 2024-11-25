@@ -47,6 +47,11 @@ header nav li a::before {
 .html5 {
     display: none;
 }
+
+.html5 img {
+    display:block;
+}
+
 main {
     background-color: #fff;
     box-shadow: 0 3px 3px #444;
@@ -191,7 +196,6 @@ footer a {
     }
     .html5 {
         display:block;
-        border: 2px #a02571;
     }
    table{
     margin: 0 auto;
@@ -236,6 +240,12 @@ footer a {
     header {
         display: none;
     }
+
+    #html5 img, #html5 p {
+        display: inline;
+        vertical-align: top;
+    }
+
 
     table{
         margin: 0 auto;
